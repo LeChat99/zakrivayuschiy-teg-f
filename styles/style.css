@@ -49,7 +49,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 49px;
   width: clamp(375px, 91vw, 700px);
   height: clamp(327px, 45.2vw, 368px);
   background-color: white;
@@ -63,14 +63,17 @@
 }
 
 .header__subtitle {
+  margin-top: 20px;
   font-family: var(--font-accent), sans-serif;
   font-weight: 400;
   font-size: 23px;
+  text-transform: uppercase;
+  
 }
 
 .card {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 49px;
   width: clamp(375px, 91vw, 700px);
   border: 2px solid black;
   position: relative;
@@ -79,7 +82,11 @@
 
 .card__title {
   font-weight: var(--weight-title);
-  line-height: 30px;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-left: 10px;
+  letter-spacing: -0.6px;
+  font-size: 19px;
 }
 
 .card__label {
@@ -133,10 +140,12 @@
 }
 
 .card__text {
-  margin: 25px 25px 0 25px;
+  margin: 21px 25px 0 25px;
   font-size: 18px;
   line-height: 21px;
 }
+
+
 
 .card__buttons {
   display: flex;
@@ -208,6 +217,7 @@
 
 .card__like-button,
 .footer__save {
+  margin-top: 2px;
   position: relative;
   width: 130px;
   height: 38px;
@@ -256,12 +266,12 @@
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 48px;
   margin-bottom: 100px;
 }
 
 .footer__save {
-  width: 355px;
+  width: 334px;
   height: 55px;
   display: flex;
   align-items: center;
@@ -273,6 +283,10 @@
   height: 21px;
   margin-right: 8px;
   mix-blend-mode: difference;
+}
+
+footer .button__text {
+  margin-right: 6px;
 }
 
 #dialog {
@@ -291,6 +305,7 @@
 .dialog__wrapper {
   display: flex;
   max-width: 293px;
+  align-items: center;
 }
 
 #dialog .img__floppy {
@@ -305,15 +320,22 @@
   font-weight: 400;
   font-size: 14px;
   display: inline;
+  text-transform: uppercase;
+  line-height: 21px;
 }
 
 #dialog .footer__save {
   width: 100%;
   margin-top: 30px;
+  height: 38px;
   margin-left: 0;
 }
 
 @media (width <= 500px) {
+.header__card {
+  margin-bottom: 52px;
+}
+
   .header__title {
     font-size: 49px;
   }
@@ -324,5 +346,33 @@
 
   .footer__save {
     flex-direction: column;
+  }
+
+  .card {
+    margin-top: 47.5px;
+  }
+
+  .card__text {
+    margin-top: 25.7px;
+  }
+
+  .footer__save {
+    width: 306px;
+    height: 85px;
+  }
+
+  #img__floppy {
+    width: 28px;
+    height: 28px;
+    margin: -5px 6px 8px 0;
+  }
+
+  footer .button__text {
+    margin-right: 7px;
+  }
+
+  #dialog {
+    width: 340px;
+    padding: 30px 40px;
   }
 }
