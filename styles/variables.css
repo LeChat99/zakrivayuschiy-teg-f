@@ -17,3 +17,50 @@
   --heart-sparks: transparent;
   --floppy: white;
 }
+
+@media (width <= 500px) {
+.header__card {
+  margin-bottom: 52px;
+}
+
+  .header__title {
+    font-size: 49px;
+  }
+
+  .header__subtitle {
+    font-size: 14px;
+  }
+
+  .footer__save {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-top: 47.5px;
+  }
+
+  .card__text {
+    margin-top: 25.7px;
+  }
+
+  .footer__save {
+    width: 306px;
+    height: 85px;
+  }
+
+  #img__floppy {
+    width: 28px;
+    height: 28px;
+    margin: -5px 6px 8px 0;
+  }
+
+  footer .button__text {
+    margin-right: 7px;
+  }
+
+  #dialog {
+    width: 340px;
+    padding: 30px 40px;
+  }
+}
+
