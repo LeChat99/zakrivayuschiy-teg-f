@@ -1,35 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --red: red;
+  --black: black;
+  --white: white;
+  --transparent: transparent;
 
   --font-basic: "inter";
   --font-accent: "PressStart2P";
   --weight-title: 715;
   --weight-text: 410;
 
-  --slider: black;
-  --button-bg: white;
-  --button-color-text: white;
+  --border-color: var(--black);
+  --slider: var(--black);
+  --button-bg: var(--white);
+  --button-color-text: var(--white);
 
-  --heart-core: transparent;
-  --heart-body: transparent;
-  --haert-contour: #000;
-  --heart-sparks: transparent;
-  --floppy: white;
+  --heart-core: var(--transparent);
+  --heart-body: var(--transparent);
+  --haert-contour: var(--black);
+  --heart-sparks: var(--transparent);
+  --floppy: var(--white);
 }
 
 @media (width <= 500px) {
 .header__card {
   margin-bottom: 52px;
 }
-
-  .header__title {
-    font-size: 49px;
-  }
-
-  .header__subtitle {
-    font-size: 14px;
-  }
 
   .card {
     margin-top: 47.5px;
