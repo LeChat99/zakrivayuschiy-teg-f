@@ -31,10 +31,6 @@
     font-size: 14px;
   }
 
-  .footer__save {
-    flex-direction: column;
-  }
-
   .card {
     margin-top: 47.5px;
   }
@@ -46,6 +42,7 @@
   .footer__save {
     width: 306px;
     height: 85px;
+    flex-direction: column;
   }
 
   #img__floppy {
