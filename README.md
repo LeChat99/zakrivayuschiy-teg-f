@@ -1,3 +1,5 @@
+https://github.com/LeChat99/zakrivayuschiy-teg-f
+
 https://lechat99.github.io/zakrivayuschiy-teg-f/
 
 Это был сложный проект, спасибо за ваш труд и терпение. Там наверное милиьон ошибок, но я хочу этому научится и не собираюсь сдаватся
