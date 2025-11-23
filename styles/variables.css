@@ -19,6 +19,17 @@
   --heart-body: var(--transparent);
   --haert-contour: var(--black);
   --heart-sparks: var(--transparent);
+
+  --h_heart-core: var(--black);
+  --h_heart-body: var(--black);
+  --a_heart-core: var(--red);
+  --a_heart-body: var(--red);
+  --liked_heart-core: var(--red);
+  --liked_heart-body: var(--red);
+  --liked_heart-contour: var(--red);
+  --kf__from_heart-saprks: var(--transparent);
+  --kf__to_heart-saprks: var(--red);
+
   --floppy: var(--white);
 }
 

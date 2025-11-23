@@ -22,9 +22,9 @@
 
 @keyframes sparks {
   from {
-    --heart-sparks: transparent;
+    fill: var(--kf__from_heart-saprks);
   }
   to {
-    --heart-sparks: red;
+    fill: var(--kf__to_heart-saprks);
   }
 }
