@@ -13,9 +13,9 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-basic), sans-serif;
-  font-variation-settings: 'wght' var(--weight-text);
+  font-variation-settings: "wght" var(--weight-text);
   position: relative;
-    background-image:
+  background-image:
     repeating-linear-gradient(
       to left,
       #d3d3d3 0px 2px,
@@ -27,9 +27,9 @@
       rgba(0, 0, 0, 0) 2px 4px
     ),
     linear-gradient(to bottom, #e7e7e7, #1a1a1a);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -62,7 +62,6 @@
   font-weight: 400;
   font-size: clamp(14px, 3.7vw, 23px);
   text-transform: uppercase;
-  
 }
 
 .card {
@@ -75,7 +74,7 @@
 }
 
 .card__title {
-  font-variation-settings: 'wght' var(--weight-title);
+  font-variation-settings: "wght" var(--weight-title);
   line-height: 22px;
   margin-top: 5px;
   margin-left: 10px;
@@ -174,17 +173,17 @@
   height: 36px;
 }
 
-.like-icon .contour{
-  transition: fill 0.1s linear;  
+.like-icon .contour {
+  transition: fill 0.1s linear;
   fill: var(--haert-contour);
 }
 
 .like-icon .core {
-  transition: fill 0.3s linear 0.03s; 
+  transition: fill 0.3s linear 0.03s;
   fill: var(--heart-core);
 }
 
-.like-icon .main-body{
+.like-icon .main-body {
   transition: fill 0.3s linear;
   fill: var(--heart-body);
 }
@@ -342,13 +341,13 @@
 
 #dialog .button__text {
   text-transform: uppercase;
-} 
+}
 
 @media (width <= 500px) {
-.header__card {
-  margin-bottom: 51px;
-  padding: 120px 0;
-}
+  .header__card {
+    margin-bottom: 51px;
+    padding: 120px 0;
+  }
 
   .card {
     margin-top: 49.5px;
@@ -381,8 +380,7 @@
     padding: 30px 39px;
   }
 
-  #dialog .button__text {
-    margin: 0;
+  #dialog .button__save {
+    padding-top: 0;
   }
 }
-
